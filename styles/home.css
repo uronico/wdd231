@@ -1,0 +1,204 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px;
+  margin: 0 0 10px 0;
+}
+
+.course-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.certificate-buttons {
+  text-align: center;
+}
+
+.certificate-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.certificate-buttons button:hover {
+  background-color: #666;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.course-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.completed {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+#menu {
+  display: inline-flex;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: .5rem .75rem;
+  color: #fff;
+  align-self: center;
+}
+
+#menu::before {
+  content: "≡";
+}
+
+#menu.show::before {
+  content: "✖";
+}
+
+main {
+  display: grid;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "course-work location"
+    "banner banner"
+    "courses courses";
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.course-work {
+  grid-area: course-work;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.location {
+  grid-area: location;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #007BFF;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      "course-work"
+      "location"
+      "banner"
+      "courses";
+  }
+
+  .courses {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: teal;
+  }
+
+  .nav-links li {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="scripts/course.js" defer></script>
+    <title>Homepage</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/nico1.jpg" alt="logo">
+        <h1>Nico F. Uro</h1>
+        <a id="menu" href="#"></a>
+    </header>
+
+    <nav>
+        <a href="#" id="home">Home</a>
+        <a href="#" id="chamber">Chamber</a>
+        <a href="#" id="git">GitHub Profile</a>
+        <a href="#" id="linkedin">LinkedIn</a>
+    </nav>
+
+    <main>
+        <div class="container">
+            <section id="course-work">
+                <h2>Course Work</h2>
+                <ul class="course-list">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+
+            <section id="laguna">
+                <h2>Laguna, Philippines</h2>
+                <div class="image-container">
+                    <img src="images/laguna.jpg" alt="Baobab Trees" width="300">
+                    <p>Pagsanjan Falls</p>
+                </div>
+            </section>
+        </div>
+
+        <section id="certificate">
+            <h2>Web and Computer Programming Certificate</h2>
+            <div class="filter-buttons">
+                <button onclick="filterCourses('all')">All Courses</button>
+                <button onclick="filterCourses('CSE')">CSE Courses</button>
+                <button onclick="filterCourses('WDD')">WDD Courses</button>
+            </div>
+            <div id="courses-container"></div>
+            <div id="total-credits"></div>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>© 2024 Nico Formanes Uro</p>
+        <p id="last-update">Last Update: 01/09/70 12:00:00</p>
+    </footer>
+
+</body>
+
+</html>
