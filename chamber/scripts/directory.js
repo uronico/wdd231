@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const response = await fetch('data/members.json');
             const data = await response.json();
-            displayMembers(data);
+            displayMembers(data.members);
         } catch (error) {
             console.error('Error fetching member data:', error);
         }

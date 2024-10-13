@@ -1,66 +1,68 @@
-[
-    {
-        "name": "Institute for Small-Scale Industries",
-        "address": "E. Jacinto Street, Diliman, Quezon City, 1101 Metro Manila, Philippines",
-        "phone": "(02) 8928 7077",
-        "website": "https://beta.entrepreneurship.org.ph/",
-        "image": "issi.png",
-        "membership": 1
-    },
-    {
-        "name": "Ashoka Philippines",
-        "address": "Unit 301, Three Brixton Building, #3 Brixton St. Pasig City 1603 Metro Manila, Philippines",
-        "phone": "(+632) 6617616",
-        "website": "https://www.ashoka.org/en-ph",
-        "image": "ashoka.png",
-        "membership": 2
-    },
-    {
-        "name": "Anvil Business Club",
-        "address": "J23X+HR4, Antel Global Corporate Center J. Vargas, San Antonio, Ortigas Center, Pasig, 1605 Metro Manila, Philippines",
-        "phone": "(02) 8726 7029",
-        "website": "https://www.anvil.org.ph/",
-        "image": "anvil.png",
-        "membership": 1
-    },
-    {
-        "name": "Entrepreneurship Educators Association of the Philippines",
-        "address": "ENEDA Secretariat, College of Commerce and Business Administration, University of Sto Tomas, Espana Manila, Philippines",
-        "phone": "+632 370 4842",
-        "website": "https://eneda.org/",
-        "image": "eneda.png",
-        "membership": 2
-    },
-    {
-        "name": "Go Negosyo",
-        "address": "2/F RFM Corporate Center, Pioneer cor. Sheridan Sts. Mandaluyong City, Metro Manila, Philippines",
-        "phone": "(02) 8928 7077",
-        "website": "https://gonegosyo.ph/",
-        "image": "gone.png",
-        "membership": 1
-    },
-    {
-        "name": "Entrepreneurs’ Organization Philippines",
-        "address": "500 Montgomery Street, Suite 600 Alexandria, VA 22314, U.S.A.",
-        "phone": "+1.703.519.6700",
-        "website": "https://www.eonetwork.org/philippines",
-        "image": "eo.jpg",
-        "membership": 2
-    },
-    {
-        "name": "Makati Business Club",
-        "address": "2nd Floor, Aim Conference Center Benavidez Street corner Trasierra Street Legaspi Village, 1229 Makati City, Philippines",
-        "phone": "7751-1137",
-        "website": "https://mbc.com.ph/",
-        "image": "makati.png",
-        "membership": 1
-    },
-    {
-        "name": "Young Entrepreneurs Society Philippines",
-        "address": "5/F Unit 505 East Tektite Tower, Ortigas Pasig City, Pasay City, Metro Manila, Philippines",
-        "phone": "(02) 906 2703",
-        "website": "https://yesphilippines.org/",
-        "image": "yes.png",
-        "membership": 2
-    }
-]
+{
+    "members": [
+        {
+            "name": "Institute for Small-Scale Industries",
+            "address": "E. Jacinto Street, Diliman, Quezon City, 1101 Metro Manila, Philippines",
+            "phone": "(02) 8928 7077",
+            "website": "https://beta.entrepreneurship.org.ph/",
+            "image": "issi.png",
+            "membership": 1
+        },
+        {
+            "name": "Ashoka Philippines",
+            "address": "Unit 301, Three Brixton Building, #3 Brixton St. Pasig City 1603 Metro Manila, Philippines",
+            "phone": "(+632) 6617616",
+            "website": "https://www.ashoka.org/en-ph",
+            "image": "ashoka.png",
+            "membership": 2
+        },
+        {
+            "name": "Anvil Business Club",
+            "address": "J23X+HR4, Antel Global Corporate Center J. Vargas, San Antonio, Ortigas Center, Pasig, 1605 Metro Manila, Philippines",
+            "phone": "(02) 8726 7029",
+            "website": "https://www.anvil.org.ph/",
+            "image": "anvil.png",
+            "membership": 1
+        },
+        {
+            "name": "Entrepreneurship Educators Association of the Philippines",
+            "address": "ENEDA Secretariat, College of Commerce and Business Administration, University of Sto Tomas, Espana Manila, Philippines",
+            "phone": "+632 370 4842",
+            "website": "https://eneda.org/",
+            "image": "eneda.png",
+            "membership": 2
+        },
+        {
+            "name": "Go Negosyo",
+            "address": "2/F RFM Corporate Center, Pioneer cor. Sheridan Sts. Mandaluyong City, Metro Manila, Philippines",
+            "phone": "(02) 8928 7077",
+            "website": "https://gonegosyo.ph/",
+            "image": "gone.png",
+            "membership": 1
+        },
+        {
+            "name": "Entrepreneurs’ Organization Philippines",
+            "address": "500 Montgomery Street, Suite 600 Alexandria, VA 22314, U.S.A.",
+            "phone": "+1.703.519.6700",
+            "website": "https://www.eonetwork.org/philippines",
+            "image": "eo.jpg",
+            "membership": 2
+        },
+        {
+            "name": "Makati Business Club",
+            "address": "2nd Floor, Aim Conference Center Benavidez Street corner Trasierra Street Legaspi Village, 1229 Makati City, Philippines",
+            "phone": "7751-1137",
+            "website": "https://mbc.com.ph/",
+            "image": "makati.png",
+            "membership": 1
+        },
+        {
+            "name": "Young Entrepreneurs Society Philippines",
+            "address": "5/F Unit 505 East Tektite Tower, Ortigas Pasig City, Pasay City, Metro Manila, Philippines",
+            "phone": "(02) 906 2703",
+            "website": "https://yesphilippines.org/",
+            "image": "yes.png",
+            "membership": 2
+        }
+    ]
+}
