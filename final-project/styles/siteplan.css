@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #29bf12;
+    --secondary-color: #abff4f;
+    --accent1-color: #ff9914;
+    --text-color: black;
+
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: 'Roboto Slab';
+    --paragraph-font: 'Open Sans';
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--text-color);
+    text-align: center;
+    font-size: 30px;
+}
+
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: var(--primary-color);
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--text-color);
+    padding: 1em;
+}
