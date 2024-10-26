@@ -1,0 +1,70 @@
+{
+    "members": [
+        {
+            "name": "Sinigang",
+            "image": "images/sinigang.webp",
+            "filter": 1,
+            "description": "Sinigang is a Filipino soup or stew characterized by its sour and savory taste."
+        },
+        {
+            "name": "Lechon",
+            "image": "images/lechon.webp",
+            "filter": 2,
+            "description": "Lechon or suckling pig is a whole pig roasted to perfection over an open flame, resulting in crispy, golden-brown skin and tender, juicy meat."
+        },
+        {
+            "name": "Sisig",
+            "image": "images/sisig.webp",
+            "filter": 2,
+            "description": "Sisig is a Filipino dish made from pork jowl and ears, pork belly, and chicken liver, which is usually seasoned with calamansi, onions, and chili peppers."
+        },
+        {
+            "name": "Afritada",
+            "image": "images/afritada.webp",
+            "filter": 2,
+            "description": "Afritada is Filipino dish consisting of chicken, beef, or pork braised on tomato sauce with carrots, potatoes, and red and green bell peppers."
+        },
+        {
+            "name": "Adobo",
+            "image": "images/adobo.webp",
+            "filter": 1,
+            "description": "Adobo is a popular Filipino dish and cooking process in the Philippines cuisine. Marinated and simmered in vinegar, salt and/or soy sauce and garlic."
+        },
+        {
+            "name": "Laing",
+            "image": "images/laing.webp",
+            "filter": 2,
+            "description": "Laing is a Filipino dish of shredded or whole taro leaves with meat or seafood cooked in thick coconut milk spiced with labuyo chili, lemon grass, garlic, shallots, ginger, and shrimp paste."
+        },
+        {
+            "name": "Pinakbet",
+            "image": "images/pinakbet.webp",
+            "filter": 1,
+            "description": "Pinakbet is an indigenous Filipino dish from northern regions of the Philippines. It is made with variety of mixed vegetables flsvored with bagoong."
+        },
+        {
+            "name": "Cajun Seafoods",
+            "image": "images/cajun.webp",
+            "filter": 2,
+            "description": "Cajun seafoods is made with mix seafoods flavored with cajun sauce and different herbs and spices from the Philippines."
+        },
+        {
+            "name": "Lumpiang Shanghai",
+            "image": "images/lumpia.webp",
+            "filter": 2,
+            "description": "Lumpiang Shanghai is a Filipino deep-fried appetizer consisting of a mixture of giniling with vegetables like carrots, chopped scallions or red onions and gralic, wrapped in a thin egg crepe."
+        },
+        {
+            "name": "Halo - Halo",
+            "image": "images/halo.webp",
+            "filter": 1,
+            "description": "Halo - Halo in a tagalog word of mixed, is a popular cold dessert in the Philippines made up of crushed ice, evaporated milk or coconut milk, and various ingredients from the Philippines."
+        },
+        {
+            "name": "Leche Flan",
+            "image": "images/leche.webp",
+            "filter": 2,
+            "description": "Leche Flan is a Filipino dessert also known as caramel custard is a dessert with a layer of clear caramel sauce."
+        }
+    ]
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chibugan Na!</title>
+    <meta name="description" content="Final Project">
+    <meta name="author" content="Nico Uro">
+    <meta property="og:title" content="Discover">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://uronico.github.io/wdd231/final-project/contact-us.html">
+    <meta property="og:image" content="images/flag.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/chibugan.css">
+    <link rel="stylesheet" href="styles/chibugan-large.css">
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/homepage.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
+</head>
+
+<body>
+    <header class="title">
+        <img class="img-logo" src="images/logo1.webp" alt="Chibugan logo">
+        <button id="myButton"></button>
+    </header>
+    <nav id="animateMe">
+        <ul class="navigation">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li class="current-menu-item"><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Chibugan Na!</h1>
+        <div class="contact-page">
+            <section>
+                <h2>Contact Us</h2>
+                <form method="get" action="thankyou.html" class="cform">
+
+                    <fieldset>
+                        <label>
+                            First Name <span class="required-sign">*</span>
+                        </label>
+                        <input type="text" id="user" name="user" title="Your First name" autocomplete="given-name"
+                            required>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                            Last Name <span class="required-sign">*</span>
+                        </label>
+                        <input type="text" id="last-name" name="last-name" title="Your last name"
+                            autocomplete="family-name" required>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                            E-mail <span class="required-sign">*</span>
+                        </label>
+                        <input type="email" id="email" name="email" title="Email to contact your business"
+                            placeholder="name@example.com" autocomplete="email" required>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                            Phone Number <span class="required-sign">*</span>
+                        </label>
+                        <input type="tel" id="phone-num" name="phone-num" title="Phone number to contact"
+                            autocomplete="tel" required>
+                    </fieldset>
+                    <fieldset>
+                        <label>
+                            Details or Message <span class="note">(optional)</span>
+                        </label>
+                        <textarea name="description" id="description"
+                            title="Description of your Organization or Business"></textarea>
+                    </fieldset>
+                    <input type="hidden" name="timeStampID" id='timeStamp' />
+
+                    <input type="submit" value="Send" title="Send your contact information">
+                    <p class="symbol"><span class="required-sign">*</span> All sections with this symbol are required
+                    </p>
+                </form>
+            </section>
+            <section>
+                <div class="contact-info">
+                    <h5>Contact Information</h5>
+                    <p>Chibugan Na!</p>
+                    <p>Santa Maria</p>
+                    <p>Laguna, Philippines 4022</p>
+                    <div class="links">
+                        <p>Phone:</p> <a href="tel:095-043-8991">095-043-8991</a>
+                        <p>Email: </p><a href="mailto: info@philippinescc.org">info@philippinescc.org</a>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-info">
+                <h4>Chibugan Na!</h4>
+                <p>206 Santa Maria</p>
+                <p>Manila, Philippines 4022</p>
+                <p>info@philippinescc.org</p>
+                <p>095-043-8991</p>
+            </div>
+            <div class="icons">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="images/youtube.png" alt="youtube icon">
+                </a>
+
+            </div>
+            <div class="dynamic">
+                <p>© 2024 Nico Formanes Uro</p>
+                <p id="last-update">Last Update: 01/09/70 12:00:00</p>
+                <p> Chibugan Na! | Manila Philippines </p>
+
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
